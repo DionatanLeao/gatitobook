@@ -8,7 +8,7 @@ const KEY = 'token';
 export class TokenService {
 
   retornaToken() {
-    return localStorage.getItem('KEY') ?? ''
+    return localStorage.getItem(KEY) ?? ''
   }
 
   salvaToken(token: string) {
